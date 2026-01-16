@@ -8,8 +8,6 @@ It reflects how **product analytics is practiced in real product organizations**
 - Metric correctness
 - Decision-oriented analysis (not vanity dashboards)
 
----
-
 ## Business Problem
 Product teams often ship features without clear evidence of impact, leading to:
 - Unclear success criteria
@@ -17,8 +15,6 @@ Product teams often ship features without clear evidence of impact, leading to:
 - Decisions driven by intuition rather than data
 
 This project simulates a **real-world experimentation workflow** where analytics guides product decisions through structured analysis.
-
----
 
 ## Why This Matters
 Poor experimentation practices result in:
@@ -30,8 +26,6 @@ This project demonstrates how **strong product analytics** enables:
 - Clear success metrics before launch
 - Statistically sound experiment evaluation
 - Confident go / no-go product decisions
-
----
 
 ## Dataset
 **Type:** Simulated product event data  
@@ -46,8 +40,6 @@ This project demonstrates how **strong product analytics** enables:
 
 This mirrors typical **event-based product telemetry** used in SaaS and eCommerce products.
 
----
-
 ## My Approach
 
 ### 1. Problem Framing & Hypothesis
@@ -56,8 +48,6 @@ This mirrors typical **event-based product telemetry** used in SaaS and eCommerc
 - Linked hypotheses directly to business questions
 
 (See: `/experiments/hypothesis.md`)
-
----
 
 ### 2. Metric Design
 - Identified primary and secondary metrics:
@@ -69,8 +59,6 @@ This mirrors typical **event-based product telemetry** used in SaaS and eCommerc
   - Non-overlapping
   - Interpretable by stakeholders
 
----
-
 ### 3. Experiment Analysis
 - Conducted A/B test analysis using Python
 - Evaluated:
@@ -81,8 +69,6 @@ This mirrors typical **event-based product telemetry** used in SaaS and eCommerc
 
 (See: `/notebooks/ab_test_analysis.ipynb`, `/notebooks/funnel_analysis.ipynb`)
 
----
-
 ### 4. SQL-Based Validation
 - Used SQL to:
   - Validate event counts
@@ -91,8 +77,6 @@ This mirrors typical **event-based product telemetry** used in SaaS and eCommerc
 
 (See: `/sql/experiment_metrics.sql`, `/sql/funnel_queries.sql`)
 
----
-
 ### 5. Results & Recommendations
 - Documented experiment outcomes clearly
 - Translated findings into **actionable product recommendations**
@@ -100,15 +84,11 @@ This mirrors typical **event-based product telemetry** used in SaaS and eCommerc
 
 (See: `/experiments/results.md`)
 
----
-
 ## Key Insights / Outcomes
 - Demonstrated how small metric lifts can translate into meaningful business impact
 - Identified where funnel drop-offs occurred despite overall conversion gains
 - Showed why statistical significance alone is insufficient without business context
 - Reinforced the importance of defining metrics *before* running experiments
-
----
 
 ## Tech Stack
 - **SQL** – Metric validation and funnel analysis  
@@ -116,10 +96,8 @@ This mirrors typical **event-based product telemetry** used in SaaS and eCommerc
 - **Jupyter Notebooks** – Exploratory and experiment analysis  
 - **Markdown** – Hypothesis and result documentation  
 
----
-
 ## Repository Structure
-
+```
 .
 ├── data/
 │ └── events_sample.csv
@@ -135,8 +113,7 @@ This mirrors typical **event-based product telemetry** used in SaaS and eCommerc
 ├── visuals/
 │ └── charts/
 └── README.md
-
----
+```
 
 ## How to Run
 1. Review experiment hypothesis in `/experiments/hypothesis.md`
@@ -145,8 +122,6 @@ This mirrors typical **event-based product telemetry** used in SaaS and eCommerc
 4. Validate metrics using SQL queries in `/sql`
 5. Review experiment conclusions in `/experiments/results.md`
 
----
-
 ## What I Learned from This Project
 - How to design experiments that answer real business questions
 - Why metric definition is more important than tooling
@@ -154,18 +129,14 @@ This mirrors typical **event-based product telemetry** used in SaaS and eCommerc
 - How product analytics directly influences roadmap decisions
 - How to communicate experiment results clearly to non-technical stakeholders
 
----
-
 ## Intended Audience
 This project is designed for:
 - Product analytics and experimentation teams
 - BI professionals moving into product-focused roles
 - Organizations building a culture of data-informed decision-making
 
----
-
 ## Author
-**Balaji Venkatesh** 🇮🇳  
-Product & Analytics Engineer  
+**Balaji Venkatesh** (India)
+Senior Analytics / Business Intelligence Engineer & Applied AI Practioner
 📧 balaji27venkatesh@gmail.com  
 🔗 https://github.com/balaji27venkatesh-AI
