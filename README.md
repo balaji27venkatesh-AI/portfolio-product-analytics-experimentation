@@ -129,16 +129,9 @@ This mirrors typical **event-based product telemetry** used in SaaS and eCommerc
 - How product analytics directly influences roadmap decisions
 - How to communicate experiment results clearly to non-technical stakeholders
 
-## Intended Audience
-This project is designed for:
-- Product analytics and experimentation teams
-- BI professionals moving into product-focused roles
-- Organizations building a culture of data-informed decision-making
-
 ## Author
 **Balaji Venkatesh** (Proud Indian)
 - Senior Analytics / Business Intelligence Engineer
-- Applied AI Practioner in making
 - 📧 balaji27venkatesh@gmail.com  
 - 🔗 https://github.com/balaji27venkatesh-AI
 
